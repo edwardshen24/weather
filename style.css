@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+.navbar{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.searchbar{
+    width: 25%;
+    background-color: rgba(0,0,0,0.1);
+    border: none;
+    color: white;
+}
+
+::placeholder { 
+    color: white;
+    opacity: 1; 
+  }
